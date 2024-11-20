@@ -5,8 +5,6 @@
 
 - 📝 I regularly write articles on [https://vnf.cc/](https://vnf.cc/)
 
-- 📫 How to reach me **n4vso51d@duck.com**
-
 - 📄 Know about my experiences [https://hkl.one/](https://hkl.one/)
 
 <h3 align="left">Connect with me:</h3>
@@ -39,9 +37,4 @@ PHbVqyjcX+vOgYGJ8692hz05MWjcADrgvwE=
 -----END PGP PUBLIC KEY BLOCK-----
 </code></pre>
 
-<p>For Non-Confidential: PGP to <a href="https://keys.mailvelope.com/pks/lookup?op=get&amp;search=huangkunlun@outlook.com">📧PGPLINK</a> or directly to n4vso51d#duck.com</p>
-
-<h4 id="comment">Comment</h4>
-
-<p>For comments, please send me 📧<a href="mailto:n4vso51d@duck.com">an email</a> or <a href="https://github.com/kunlunh/kunlunh.github.io/issues">left it on Github</a>.</p>
 
