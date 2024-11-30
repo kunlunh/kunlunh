@@ -3,7 +3,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=kunlunh&label=Profile%20views&color=0e75b6&style=flat" alt="kunlunh" /> </p>
 
-- 📝 I regularly write articles on [https://vnf.cc/](https://vnf.cc/) or [https://xou.net/](https://xou.net/)
+- 📝 I regularly write articles on [https://xou.net/](https://xou.net/)
 
 - 📄 Know about my experiences [https://hkl.one/](https://hkl.one/)
 
