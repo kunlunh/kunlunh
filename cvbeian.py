@@ -1,5 +1,6 @@
+indexFilepath = '/home/runner/work/hklcv/hklcv/public/index.html'
 # For generated CV Html Profile
-with open('./public/index.html', 'r', encoding='utf-8') as file:
+with open(indexFilepath, 'r', encoding='utf-8') as file:
     lines = file.readlines()
 
 # Add the link
@@ -21,6 +22,6 @@ for i in range(len(lines)):
         break
 
 # write changes to index.html
-with open('./public/index.html', 'w', encoding='utf-8') as file:
+with open(indexFilepath, 'w', encoding='utf-8') as file:
     print("Saving")
     file.writelines(lines)
