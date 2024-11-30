@@ -1,5 +1,5 @@
 # For generated CV Html Profile
-with open('public/index.html', 'r', encoding='utf-8') as file:
+with open('./public/index.html', 'r', encoding='utf-8') as file:
     lines = file.readlines()
 
 # Add the link
@@ -15,10 +15,12 @@ for i in range(len(lines)):
         for j in range(i, len(lines)):
             if '</div>' in lines[j]:
                 # before footer
+                print("Inserting".join(new_links)+'\n')
                 lines.insert(j, '\n'.join(new_links) + '\n')
                 break
         break
 
 # write changes to index.html
-with open('public/index.html', 'w', encoding='utf-8') as file:
+with open('./public/index.html', 'w', encoding='utf-8') as file:
+    print("Saving")
     file.writelines(lines)
