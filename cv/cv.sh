@@ -2,6 +2,10 @@
 
 indexFilepath="/home/runner/work/hklcv/hklcv/public/index.html"
 
+echo "staring script"
+
+cat "$indexFilepath"
+
 # 创建临时文件
 temp_file=$(mktemp)
 
@@ -23,5 +27,6 @@ while IFS= read -r line || [[ -n "$line" ]]; do
     fi
 done < "$indexFilepath"
 
+cat "$temp_file"
 # 将临时文件移回原文件
 mv "$temp_file" "$indexFilepath"
